@@ -57,6 +57,10 @@
                     </div>
                     <div class="clear"></div>
                     <div class="field">
+                        <label for="id_age">Gender</label>
+                        {{ form.gender }}{{ form.gender.errors }}
+                    </div>
+                    <div class="field">
                         <label>Which country do you live in?</label>
                         {{ form.city }}{{ form.city.errors }}
                     </div>

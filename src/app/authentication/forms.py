@@ -179,7 +179,7 @@ class ProjectRegistrationForm(forms.ModelForm):
         model = models.EndUser
         fields = [
                 'first_name', 'last_name', 'email', 'phone_number', 'age',
-                'city', 'heard_about_from', 'heard_about_from_other',
+                'gender', 'city', 'heard_about_from', 'heard_about_from_other',
                 'affiliation', 'submit_reason', 'information_about_jozihub',
                 'educational_background', 'about_you',
                 'events_interested_in_hosting',
