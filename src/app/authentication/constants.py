@@ -1,6 +1,8 @@
 TITLE_CHOICES = (('Mr', 'Mr'),
                  ('Mrs', 'Mrs'),
                  ('Ms', 'Ms'))
+GENDER_CHOICES = (('Male', 'M'),
+                  ('Female', 'F'))
 
 AFFILIATION_CHOICE_STARTUP = 0
 AFFILIATION_CHOICE_DEVELOPER = 1
@@ -83,5 +85,3 @@ FIELD_OF_EXPERTISE_CHOICES = (
     (FIELD_OF_EXPERTISE_FINANCING_AND_RAISING_CAPITAL, 'Financing and raising capital'),
     (FIELD_OF_EXPERTISE_OTHER, 'Other'),
 )
-
-

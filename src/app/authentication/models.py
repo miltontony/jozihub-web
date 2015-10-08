@@ -83,6 +83,7 @@ class EndUser(ImageModel, AbstractBaseUser, PermissionsMixin):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     age = models.PositiveSmallIntegerField(blank=True, null=True)
+    gender = models.CharField(max_length=1, choices=constants.GENDER_CHOICES, blank=True, null=True)
     job_title = models.CharField(max_length=255, blank=True, null=True)
     company = models.CharField(max_length=255, blank=True, null=True)
     email = models.EmailField(max_length=255, unique=True, db_index=True)
